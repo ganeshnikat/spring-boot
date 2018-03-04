@@ -55,13 +55,13 @@ public class StudentDashboard {
 
 	public List<Student>  createStudentList() {
 		List<Student> studentInfo = new ArrayList<Student>();
-		studentInfo.add(new Student(1, "Ganesh", "Nikat", "ganesh.nikat@gmail.com", "MH", "Pune", 411033));
-		studentInfo.add(new Student(2, "Vijay", "Mheta", "vijay@gmail.com", "MP", "Jabalpur", 411001));
-		studentInfo.add(new Student(3, "Gaurav", "Bapat", "gaurav@gmail.com", "MH", "Kothrud", 411033));
-		studentInfo.add(new Student(4, "Dinesh", "Bhor", "dinesh.bhor@gmail.com", "MH", "Aundh",411001));
-		studentInfo.add(new Student(5, "Shilpa", "Devharkar", "shilpa@gmail.com", "MP", "XYZ", 411001));
-		studentInfo.add(new Student(5, "Shubham", "Alai", "shubham@gmail.com", "AP", "XYZ", 654123));
-		studentInfo.add(new Student(5, "Shubham", "patil", "patil@gmail.com", "AP", "XYZ", 654123));
+		studentInfo.add(new Student(1, "Ganesh", "ABC", "ganesh@gmail.com", "MH", "ABC", 123456));
+		studentInfo.add(new Student(2, "Vijay", "ABC", "vijay@gmail.com", "MP", "XYZ", 345678));
+		studentInfo.add(new Student(3, "Gaurav", "ABC", "gaurav@gmail.com", "MH", "RTS", 432156));
+		studentInfo.add(new Student(4, "Dinesh", "ABC", "dinesh@gmail.com", "MH", "PQR",321456));
+		studentInfo.add(new Student(5, "Shilpa", "ABC", "shilpa@gmail.com", "MP", "XYZ", 543213));
+		studentInfo.add(new Student(5, "Shubham", "ABC", "shubham@gmail.com", "AP", "XYZ", 432134));
+		studentInfo.add(new Student(5, "Shubham", "ABC", "patil@gmail.com", "AP", "XYZ", 567432));
 		return studentInfo;
 	}
 }
