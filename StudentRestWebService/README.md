@@ -1,4 +1,4 @@
-# Spring-Boot CRUD Operations with Hard-Coded Data
+# Spring-Boot CRUD Operations with Mocked Data
 
 This REST Webservice has Following operations
 
